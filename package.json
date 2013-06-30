@@ -1,0 +1,28 @@
+{
+  "name": "tailer",
+  "description": "node.js equivalent of Unix 'tail -F <file>'",
+  "version": "0.1.0",
+  "author": {
+    "name": "Herman Meerlo",
+    "email": "herman@meerlo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hmeerlo/node-tailer.git"
+  },
+  "homepage": "https://github.com/hmeerlo/node-tailer",
+  "keywords": [
+    "tail",
+    "tailer"
+  ],
+  "dependencies": {
+    "async":"0.2.5"
+  },
+  "main": "./tailer.js",
+  "engines": {
+    "node": ">= 0.2.0"
+  },
+  "readme": "node.js equivalent of Unix 'tail -F <file>'",
+  "_id": "tailer@0.1",
+  "_from": "tailer@0.1"
+}
