@@ -15,7 +15,7 @@ or add tailer to package.json and run 'npm install'
 
 #Use:
 ```javascript
-Tailer = require('tailer').Tailer;
+Tailer = require('tailer');
 
 tailer = new Tailer("/var/log/messages", {fromstart: true, delay: 500});
 
