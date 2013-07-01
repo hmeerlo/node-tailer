@@ -55,7 +55,7 @@ Tailer.prototype = {
 			}
 		});
 	},
-	stop: function(){
+	untail: function(){
 		var _this = this;
 		_this.stop = true;
 	},
