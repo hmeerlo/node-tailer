@@ -28,3 +28,8 @@ tailer.tail(function(err, line){
 tailer.untail();
 
 ````
+
+Currently you can supply 2 options to the Tailer constructor:
+
+* fromstart - Tells the tailer to read the file from the start and output all existing lines. If false (default), it will only tail new lines added to the file after the tailer has been created.
+* delay - This is the delay in ms (default 1000) between 2 consecutive reads in the file.
